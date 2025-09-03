@@ -1,0 +1,19 @@
+{
+  "name": "knk-brawl-stars-rpc",
+  "version": "1.0.0",
+  "description": "An RPC to flex your stats",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "discord-rpc": "^3.1.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error\" && exit 1"
+  },
+  "author": "KanekiDev",
+  "github": "github.com/Kanekilib",
+  "license": "MIT"
+}
