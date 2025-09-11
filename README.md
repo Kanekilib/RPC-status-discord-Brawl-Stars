@@ -49,10 +49,10 @@ npm install
 The repository already includes a `config.json` file.
 Edit it with your information:
 
-```json
+```
 {
-  "tag_bs": "#YOURTAG",
-  "key_bsdev": "YOUR_BRAWL_STARS_DEV_API_KEY"
+  "tag_bs": "your bs tag here",
+  "key_bsdev": "key dev here"
 }
 ```
 
