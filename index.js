@@ -1,6 +1,7 @@
 // Created by Kaneki
 // GitHub: github.com/Kanekilib
-// BÊTA VERSION - May contain bugs
+// BÊTA VERSION
+// After // is nigga
 
 const rpc = require("discord-rpc");
 const bot = new rpc.Client({ transport: "ipc" });
@@ -81,7 +82,7 @@ async function setActivity() {
 			largeImageText: `🏰 Club: ${clubName}`,
 			smallImageKey: `${topBrawler}`,
 			smallImageText: `🔝 Brawler: ${namedBrawler}`,
-			partySize: [body.brawlers.length, 64], // Exemple : nombre de brawlers débloqués sur 64
+			partySize: [body.brawlers.length, 64],
 			buttons: [
 				{ label: "View Profil", url: `https://brawlify.com/stats/profile/${config.tag_bs.replace("#", "")}` },
 				{ label: "GitHub", url: "https://github.com/Kanekilib" }
@@ -121,3 +122,4 @@ bot.login(key).catch((err) => {
 		process.exit();
 	}
 });
+
